@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CED38A21295185CA003805F0 /* PopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED38A1F295185CA003805F0 /* PopupVC.swift */; };
+		CED38A22295185CA003805F0 /* PopupVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CED38A20295185CA003805F0 /* PopupVC.xib */; };
 		CEE0B63529505E5D00240361 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE0B63429505E5D00240361 /* AppDelegate.swift */; };
 		CEE0B63729505E5D00240361 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE0B63629505E5D00240361 /* SceneDelegate.swift */; };
 		CEE0B63929505E5D00240361 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE0B63829505E5D00240361 /* ViewController.swift */; };
 		CEE0B63C29505E5D00240361 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE0B63A29505E5D00240361 /* Main.storyboard */; };
 		CEE0B63E29505E5F00240361 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE0B63D29505E5F00240361 /* Assets.xcassets */; };
 		CEE0B64129505E5F00240361 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE0B63F29505E5F00240361 /* LaunchScreen.storyboard */; };
+		CEE0B6492950609300240361 /* TextFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE0B6482950609300240361 /* TextFieldView.xib */; };
+		CEE0B64B295067AD00240361 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE0B64A295067AD00240361 /* TextFieldView.swift */; };
+		CEE0B64D2950800700240361 /* IntroduceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE0B64C2950800700240361 /* IntroduceView.swift */; };
+		CEE0B64F2950881500240361 /* IntroduceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE0B64E2950881500240361 /* IntroduceView.xib */; };
+		CEE0B65B2950A20E00240361 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = CEE0B65A2950A20E00240361 /* RxCocoa */; };
+		CEE0B65D2950A20E00240361 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CEE0B65C2950A20E00240361 /* RxSwift */; };
+		CEE0B65F2950B1F600240361 /* WebsiteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE0B65E2950B1F600240361 /* WebsiteView.xib */; };
+		CEE0B6612950B2BB00240361 /* WebsiteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE0B6602950B2BB00240361 /* WebsiteView.swift */; };
+		CEE0B6642950B8E300240361 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = CEE0B6632950B8E300240361 /* SnapKit */; };
+		CEE0B6662950BA0200240361 /* WebsiteRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE0B6652950BA0200240361 /* WebsiteRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CED38A1F295185CA003805F0 /* PopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupVC.swift; sourceTree = "<group>"; };
+		CED38A20295185CA003805F0 /* PopupVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopupVC.xib; sourceTree = "<group>"; };
 		CEE0B63129505E5D00240361 /* mypageMisson_CustomView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mypageMisson_CustomView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE0B63429505E5D00240361 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEE0B63629505E5D00240361 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +38,21 @@
 		CEE0B63D29505E5F00240361 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEE0B64029505E5F00240361 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEE0B64229505E5F00240361 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE0B6482950609300240361 /* TextFieldView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldView.xib; sourceTree = "<group>"; };
+		CEE0B64A295067AD00240361 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		CEE0B64C2950800700240361 /* IntroduceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroduceView.swift; sourceTree = "<group>"; };
+		CEE0B64E2950881500240361 /* IntroduceView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntroduceView.xib; sourceTree = "<group>"; };
+		CEE0B6512950968100240361 /* NanumGothicLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumGothicLight.otf; sourceTree = "<group>"; };
+		CEE0B6522950968100240361 /* NanumGothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumGothic.ttf; sourceTree = "<group>"; };
+		CEE0B6532950968100240361 /* NanumGothicBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumGothicBold.ttf; sourceTree = "<group>"; };
+		CEE0B6542950968100240361 /* NanumGothic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumGothic.otf; sourceTree = "<group>"; };
+		CEE0B6552950968100240361 /* NanumGothicLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumGothicLight.ttf; sourceTree = "<group>"; };
+		CEE0B6562950968200240361 /* NanumGothicExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumGothicExtraBold.otf; sourceTree = "<group>"; };
+		CEE0B6572950968200240361 /* NanumGothicExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumGothicExtraBold.ttf; sourceTree = "<group>"; };
+		CEE0B6582950968200240361 /* NanumGothicBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumGothicBold.otf; sourceTree = "<group>"; };
+		CEE0B65E2950B1F600240361 /* WebsiteView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebsiteView.xib; sourceTree = "<group>"; };
+		CEE0B6602950B2BB00240361 /* WebsiteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteView.swift; sourceTree = "<group>"; };
+		CEE0B6652950BA0200240361 /* WebsiteRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +60,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE0B6642950B8E300240361 /* SnapKit in Frameworks */,
+				CEE0B65D2950A20E00240361 /* RxSwift in Frameworks */,
+				CEE0B65B2950A20E00240361 /* RxCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,8 +95,33 @@
 				CEE0B63D29505E5F00240361 /* Assets.xcassets */,
 				CEE0B63F29505E5F00240361 /* LaunchScreen.storyboard */,
 				CEE0B64229505E5F00240361 /* Info.plist */,
+				CEE0B6502950966F00240361 /* Fonts */,
+				CEE0B64A295067AD00240361 /* TextFieldView.swift */,
+				CEE0B6482950609300240361 /* TextFieldView.xib */,
+				CEE0B64C2950800700240361 /* IntroduceView.swift */,
+				CEE0B64E2950881500240361 /* IntroduceView.xib */,
+				CEE0B6602950B2BB00240361 /* WebsiteView.swift */,
+				CEE0B65E2950B1F600240361 /* WebsiteView.xib */,
+				CEE0B6652950BA0200240361 /* WebsiteRow.swift */,
+				CED38A1F295185CA003805F0 /* PopupVC.swift */,
+				CED38A20295185CA003805F0 /* PopupVC.xib */,
 			);
 			path = mypageMisson_CustomView;
+			sourceTree = "<group>";
+		};
+		CEE0B6502950966F00240361 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CEE0B6542950968100240361 /* NanumGothic.otf */,
+				CEE0B6522950968100240361 /* NanumGothic.ttf */,
+				CEE0B6582950968200240361 /* NanumGothicBold.otf */,
+				CEE0B6532950968100240361 /* NanumGothicBold.ttf */,
+				CEE0B6562950968200240361 /* NanumGothicExtraBold.otf */,
+				CEE0B6572950968200240361 /* NanumGothicExtraBold.ttf */,
+				CEE0B6512950968100240361 /* NanumGothicLight.otf */,
+				CEE0B6552950968100240361 /* NanumGothicLight.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +140,11 @@
 			dependencies = (
 			);
 			name = mypageMisson_CustomView;
+			packageProductDependencies = (
+				CEE0B65A2950A20E00240361 /* RxCocoa */,
+				CEE0B65C2950A20E00240361 /* RxSwift */,
+				CEE0B6632950B8E300240361 /* SnapKit */,
+			);
 			productName = mypageMisson_CustomView;
 			productReference = CEE0B63129505E5D00240361 /* mypageMisson_CustomView.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +173,11 @@
 				Base,
 			);
 			mainGroup = CEE0B62829505E5D00240361;
+			packageReferences = (
+				CEE0B6592950A20E00240361 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				CEE0B6622950B8E300240361 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				CED38A1C29517BF5003805F0 /* XCRemoteSwiftPackageReference "UITextView-Placeholder" */,
+			);
 			productRefGroup = CEE0B63229505E5D00240361 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +192,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED38A22295185CA003805F0 /* PopupVC.xib in Resources */,
 				CEE0B64129505E5F00240361 /* LaunchScreen.storyboard in Resources */,
 				CEE0B63E29505E5F00240361 /* Assets.xcassets in Resources */,
+				CEE0B6492950609300240361 /* TextFieldView.xib in Resources */,
+				CEE0B64F2950881500240361 /* IntroduceView.xib in Resources */,
+				CEE0B65F2950B1F600240361 /* WebsiteView.xib in Resources */,
 				CEE0B63C29505E5D00240361 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +209,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE0B64D2950800700240361 /* IntroduceView.swift in Sources */,
 				CEE0B63929505E5D00240361 /* ViewController.swift in Sources */,
 				CEE0B63529505E5D00240361 /* AppDelegate.swift in Sources */,
+				CEE0B64B295067AD00240361 /* TextFieldView.swift in Sources */,
+				CEE0B6612950B2BB00240361 /* WebsiteView.swift in Sources */,
+				CED38A21295185CA003805F0 /* PopupVC.swift in Sources */,
+				CEE0B6662950BA0200240361 /* WebsiteRow.swift in Sources */,
 				CEE0B63729505E5D00240361 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +434,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CED38A1C29517BF5003805F0 /* XCRemoteSwiftPackageReference "UITextView-Placeholder" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/UITextView-Placeholder.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		CEE0B6592950A20E00240361 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		CEE0B6622950B8E300240361 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CEE0B65A2950A20E00240361 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEE0B6592950A20E00240361 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		CEE0B65C2950A20E00240361 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEE0B6592950A20E00240361 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		CEE0B6632950B8E300240361 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEE0B6622950B8E300240361 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CEE0B62929505E5D00240361 /* Project object */;
 }
